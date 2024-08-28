@@ -20,7 +20,7 @@
 #define REVERSE 0
 #endif
 
-/* Will be documented */
+/* will be documented */
 #define nset_dec(name, T)							\
 	typedef struct nset_node_##name						\
 	{									\
