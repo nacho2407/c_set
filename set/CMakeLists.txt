@@ -1,0 +1,7 @@
+add_library(nset SHARED nset.h nset.c)
+
+install(TARGETS nset
+    RUNTIME DESTINATION ${CMAKE_SOURCE_DIR}/bin
+    LIBRARY DESTINATION ${CMAKE_SOURCE_DIR}/lib
+    ARCHIVE DESTINATION ${CMAKE_SOURCE_DIR}/lib
+)
