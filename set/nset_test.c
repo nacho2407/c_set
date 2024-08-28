@@ -6,7 +6,7 @@
 
 #define TEST_SIZE 128
 
-/* debugging required */
+// debugging required
 void test_set(void)
 {
         if(TEST_SIZE < 1)
