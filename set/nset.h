@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define NSET_VERSION "0.0.1"
+
 #ifndef NTREE
 #define NTREE
 
